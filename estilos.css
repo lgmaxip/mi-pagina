@@ -1,0 +1,66 @@
+/* puedo asignar desde aqui o desde la etiqueta como atributo */
+body{
+    background-color: rgb(255, 255, 255);
+}
+/* para darle el color al encabezado (fondo) */
+header{
+    background-color: rgb(156, 156, 248);
+}
+
+/* sirve para poner el inicio y el contacto al lado uno del otro */
+header>ul>li{
+    display: inline-block;
+}
+/* sirve para cambiar el color a las letras de inicio y contacto */
+header>ul>li>a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.principal{
+    width: 100%;
+    display: inline-block;
+}
+
+/* #bloque-izquierdo{
+    width: 20%;
+}
+
+#bloque-derecho{
+    padding-left: 5%;
+    width: 80%;
+} */
+
+h3{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+} 
+
+p{
+    font-size: 17px;
+}
+
+
+/* sirve para aplicar estilo solo a id que nosotros hacemos referencia */
+
+#mis-datos-titulo{
+    color: blue;
+    
+}
+
+#mis-datos-contacto{
+    text-align: center;
+}
+
+/* sirve para establecer el mismo estilo a varios elementos de esa clase */
+.lista-estudio{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+/* agrego color de fondo y alineo el texto del pie de pagina */
+footer{
+    background-color: rgb(168, 168, 255);
+    text-align: center;
+}

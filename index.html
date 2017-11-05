@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- titulo que aparece en la pestaña -->
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Pagina</title>
+    <!-- link me sirve para conectar con estilos.ccs y si se encuentra en la misma carpeta solo tengo que colocar el nombre en href-->
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+
+</head>
+<body>
+    <!-- me permite crear el encabezado -->
+    <header>
+        <!-- creo una lista -->
+        <ul>
+            <li><a href="#"> Inicio</a></li>
+            <li><a href="contacto.html"> Contacto</a></li>
+        </ul>
+    </header>
+    <!-- me permite dividir en bloques -->
+    <div class="principal" class="col-xs-12" >
+        <div id="bloque-izquierdo" class="col-xs-12 col-sm-4">
+            <!-- para agregar imagen -->
+            <img src="user.png" alt="imagen-perfil">
+            <!-- h3 es una eqiqueta que viene hasta el h6, el h1 es el mas grande y el h6 es el mas pequeño -->
+            <h3 id="mis-datos-titulo">Mis Datos</h3>
+            <ul>
+                <li><h4>Apellido y nombre: Ponce Maximiliano</h4></li>
+                <li><h4>Direccion: Laprida N°973</h4></li>
+                <li><h4>Edad: 25 años</h4></li>
+            </ul>
+        </div>
+        <div id="bloque-derecho" class="col-sm-8">
+                <div class="panel panel-default">
+                       <div class="panel-heading"> 
+                            <!-- <h3 class="panel-title">INFORMACION</h3> -->
+                            <h3 class="panel-title">INFORMACION</h3>
+                            <br>
+                            <p>breve informacion aqui</p>
+                            <!-- sirve para hacer una linea de division -->
+                            <hr>
+                            <h3>Formacion academica</h3>
+                            <ul class="lista-estudio">
+                                <li>Estudios secundarios</li>
+                                    2005 - 2010: Esc. Comandante Manuel Besares
+                                <li>Estudios terciarios</li>
+                                    2010 - Actualidad : Universidad Nacional
+                            </ul>
+                            <hr>
+                            <h3>Aptitudes</h3>
+                            <p>las aptitudes aqui</p>
+                        </div>
+                       
+                      </div>
+                      
+
+            <!-- <h1>Informacion</h1> -->
+            <!-- p es para el parrafo, es decir me encierra todo un parrafo -->
+            <!-- <p>loren impsum, ...</p> -->
+            <!-- sirve para hacer una linea de division -->
+            <!-- <hr>
+            <h3>Formacion academica</h3>
+            <ul class="lista-estudio">
+                <li>Estudios secundarios</li>
+                    2005 - 2010: Esc. Comandante Manuel Besares
+                <li>Estudios terciarios</li>
+                    2010 - Actualidad : Universidad Nacional
+            </ul>
+            <hr>
+            <h3>Aptitudes</h3>
+            <p>Aqui irian las aptitudes</p> -->
+        </div>
+    </div>
+
+    <!-- por ultimo el pie de pagina footer, siempre hay accesos a redes, sitios de interes, mapas de sitios -->
+    <footer>
+        <p>Taller de capacitacion: " tecnologias basicas para el desarrollo web"</p>
+        <p>Email de contacto: <a href="mailto:lg.maxip@gmail.com"> lg.maxip@gmail.com</a></p>
+    </footer>
+
+    <script src="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap/bootstrapjquery.js"></script>
+</body>
+</html>
